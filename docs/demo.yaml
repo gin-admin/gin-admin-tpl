@@ -1,0 +1,21 @@
+name: Demo
+comment: DemoManage
+fields:
+  - name: Code
+    type: string
+    comment: 编号
+    required: true
+    binding_options: ""
+    gorm_options: "size:50;index;"
+  - name: Name
+    type: string
+    comment: 名称
+    required: true
+    binding_options: ""
+    gorm_options: "size:50;index;"
+  - name: Memo
+    type: string
+    comment: 备注
+    required: false
+    binding_options: ""
+    gorm_options: "size:1024;"
